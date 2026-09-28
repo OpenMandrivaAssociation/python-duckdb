@@ -15,6 +15,7 @@ BuildRequires:	ninja
 BuildRequires:	gcc-c++
 BuildRequires:	lib64python-devel
 BuildRequires:	python%{pyver}dist(pybind11)
+BuildRequires:	python%{pyver}dist(setuptools-scm)
 %description
 DuckDB in-process database.
 
