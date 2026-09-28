@@ -1,4 +1,6 @@
 Name:		python-duckdb
+# scikit-build does not leave debug sources rpm can package.
+%global debug_package %{nil}
 Version:	1.4.5
 Release:	1
 Summary:	DuckDB in-process database
